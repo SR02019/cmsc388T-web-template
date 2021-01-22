@@ -2,7 +2,11 @@ version: '3'
 
 services:
   nodejs:
-    #fill out the configuration here
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: srnodeapp
+    container_name: srnodeapp
     networks:
       - app-network
   
@@ -28,7 +32,7 @@ volumes:
     driver_opts:
       type: none
       #fill out your absolute path to your folder here
-      device: /Users/sruthir/Desktop/Gitclass/cmsc388T-web-template
+      device: ./
       o: bind
 
 networks:
