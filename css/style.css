@@ -43,7 +43,7 @@ html, body {
 }
 
 .main-header {
-    background-color: red;
+    background-color: rgb(66, 7, 7);
     background-image: url('https://www.databankimx.com/wp-content/uploads/2015/07/Microsoft-Cloud-Offerings.jpg');
     background-blend-mode: multiply;
     background-size: cover;
