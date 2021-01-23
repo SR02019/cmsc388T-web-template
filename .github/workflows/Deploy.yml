@@ -23,5 +23,5 @@ jobs:
           port: ${{ secrets.PORT }}
           script: |
               cd ..
-              cd pub/SR02019/github.io/
+              cd pub/SR02019.github.io/
               git pull
