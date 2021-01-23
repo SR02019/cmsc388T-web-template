@@ -21,7 +21,7 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: cloning items
-        uses: appleboy/ssh-actions@master
+        uses: appleboy/ssh-action@master
         with:
           host: ${{ secrets.HOST }}
           username: ${{ secrets.USERNAME }}
